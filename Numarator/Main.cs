@@ -15,7 +15,7 @@ namespace Numarator
     {
         private Hashtable Masalar;
         private Queue<int> Bekleyenler;
-
+        private int SonNumara;
 
         public Main()
         {
@@ -25,13 +25,23 @@ namespace Numarator
         private void Main_Load(object sender, EventArgs e)
         {
             this.Text = "Numarator";
-            btnGetNumber.Text = "Get Number";
-            lblLastNumber.Text = "-";
+            this.btnGetNumber.Text = "Get Number";
+            this.lblLastNumber.Text = "-";
+            this.SonNumara = 0;
 
             this.Masalar = new Hashtable();
             this.Bekleyenler = new Queue<int>();
 
             this.masalariYukle();
+
+            refreshList();
+        }
+
+        private void refreshList()
+        {
+            this.listWaiting.DataSource = null;
+            this.listWaiting.DataSource = Bekleyenler;
+            this.listWaiting.DisplayMember = "Key";
         }
 
         private void masalariYukle()
@@ -46,17 +56,13 @@ namespace Numarator
 
         private void BtnGetNumber_Click(object sender, EventArgs e)
         {
+            this.SonNumara++;
+            this.lblLastNumber.Text = this.SonNumara.ToString();
 
+            this.Bekleyenler.Enqueue(this.SonNumara);
+
+            refreshList();
         }
 
-        private void numaraEkle(int numara)
-        {
-            this.Bekleyenler.Enqueue(numara);
-        }
-
-        private int siradaki()
-        {
-            return this.Bekleyenler.Dequeue();
-        }
     }
 }
