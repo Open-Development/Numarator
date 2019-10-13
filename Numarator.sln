@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numarator", "Numarator\Numarator.csproj", "{6158393D-C828-45D0-A67C-B8F7236D2139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6158393D-C828-45D0-A67C-B8F7236D2139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6158393D-C828-45D0-A67C-B8F7236D2139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6158393D-C828-45D0-A67C-B8F7236D2139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6158393D-C828-45D0-A67C-B8F7236D2139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2555463-5D55-49ED-B181-FBCDA32B5A10}
+	EndGlobalSection
+EndGlobal
