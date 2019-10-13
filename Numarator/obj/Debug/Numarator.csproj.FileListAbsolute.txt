@@ -1,0 +1,10 @@
+E:\Projects\Develop\Numarator\Numarator\bin\Debug\Numarator.exe.config
+E:\Projects\Develop\Numarator\Numarator\bin\Debug\Numarator.exe
+E:\Projects\Develop\Numarator\Numarator\bin\Debug\Numarator.pdb
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.csprojAssemblyReference.cache
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.Main.resources
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.Properties.Resources.resources
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.csproj.GenerateResource.cache
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.csproj.CoreCompileInputs.cache
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.exe
+E:\Projects\Develop\Numarator\Numarator\obj\Debug\Numarator.pdb
